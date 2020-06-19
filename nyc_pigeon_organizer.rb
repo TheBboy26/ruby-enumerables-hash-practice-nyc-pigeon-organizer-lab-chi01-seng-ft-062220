@@ -7,6 +7,9 @@ data.each do |key, value|
       if !new_hash[name]
         new_hash[name] = {}
       end
+      if !new_hash[name][name]
+        new_hash[name]][key] = []
+      end 
       new_hash[name][key] << new_hash.to_s 
     end
   end
